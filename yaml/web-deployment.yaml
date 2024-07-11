@@ -23,7 +23,7 @@ spec:
         - name: wishlist-app-container
           image: andj712/lista-zelja:v1
           volumeMounts:
-            - mounthPath: /var/log/nginx
+            - mountPath: /var/log/nginx
               name: nginx-data
           ports:
           - containerPort: 80
